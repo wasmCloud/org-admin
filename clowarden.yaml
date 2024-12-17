@@ -1,0 +1,43 @@
+# Source: https://github.com/cncf/clowarden#configuration
+teams:
+  # Maintainers of the wasmCloud host
+  - name: host-maintainers
+    maintainers:
+      - brooksmtownsend
+      - thomastaylor312
+      - rvolosatovs
+      - vados-cosmonic
+    members:
+      - brooksmtownsend
+      - thomastaylor312
+      - rvolosatovs
+      - vados-cosmonic
+  # Maintainers of the wasmCloud GitHub organization
+  - name: org-maintainers
+    maintainers:
+      - brooksmtownsend
+      - LiamRandall
+      - ricochet
+      - thomastaylor312
+    members:
+      - brooksmtownsend
+      - cdmurph32
+      - LiamRandall
+      - ricochet
+      - thomastaylor312
+      - jordan-rash
+  # Maintainers of TypeScript SDKs and examples
+  - name: typescript-maintainers
+    maintainers:
+      - brooksmtownsend
+      - lachieh
+    members:
+      - brooksmtownsend
+      - lachieh
+
+repositories:
+  - name: typescript
+    teams:
+      typescript-maintainers: maintain
+      org-maintainers: admin
+    visibility: public
