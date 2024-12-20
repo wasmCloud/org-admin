@@ -7,11 +7,6 @@ teams:
       - thomastaylor312
       - rvolosatovs
       - vados-cosmonic
-    members:
-      - brooksmtownsend
-      - thomastaylor312
-      - rvolosatovs
-      - vados-cosmonic
   # Maintainers of the wasmCloud GitHub organization
   - name: org-maintainers
     maintainers:
@@ -20,18 +15,11 @@ teams:
       - ricochet
       - thomastaylor312
     members:
-      - brooksmtownsend
       - cdmurph32
-      - LiamRandall
-      - ricochet
-      - thomastaylor312
       - jordan-rash
   # Maintainers of TypeScript SDKs and examples
   - name: typescript-maintainers
     maintainers:
-      - brooksmtownsend
-      - lachieh
-    members:
       - brooksmtownsend
       - lachieh
 
