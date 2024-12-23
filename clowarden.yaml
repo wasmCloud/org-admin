@@ -1,5 +1,25 @@
 # Source: https://github.com/cncf/clowarden#configuration
 teams:
+  # Maintainers of wasmCloud GitHub actions
+  - name: ci-maintainers
+    maintainers:
+      - brooksmtownsend
+      - joonas
+      - ricochet
+      - rvolosatovs
+      - thomastaylor312
+      - vados-cosmonic
+  # Maintainers of wasmCloud Go SDKs and examples
+  - name: go-maintainers
+    maintainers:
+      - lxfontes
+      - rvolosatovs
+    members:
+      - brooksmtownsend
+      - joonas
+      - ricochet
+      - thomastaylor312
+      - jordan-rash
   # Maintainers of the wasmCloud host
   - name: host-maintainers
     maintainers:
@@ -27,5 +47,11 @@ repositories:
   - name: typescript
     teams:
       typescript-maintainers: maintain
+      org-maintainers: admin
+    visibility: public
+  - name: setup-go
+    teams:
+      ci-maintainers: maintain
+      go-maintainers: maintain
       org-maintainers: admin
     visibility: public
